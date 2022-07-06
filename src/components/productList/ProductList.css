@@ -1,0 +1,36 @@
+.productlist {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.pl-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pl-title {
+    margin: 1rem 0;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.pl-desc {
+    display: flex;
+    line-height: 25px;
+    width: 70%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pl-list {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between; */
+}

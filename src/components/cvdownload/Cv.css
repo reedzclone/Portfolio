@@ -1,0 +1,20 @@
+.btn-cv {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;    
+}
+
+.resume {
+    width: 250px;
+    height: 50px;
+    background-color: #59b256;
+    outline: none;
+    border: none;
+    margin-top: 3rem;
+}
+
+.resume:hover {
+    cursor: pointer;
+    color: white;
+    border: 2px solid white; 
+}
