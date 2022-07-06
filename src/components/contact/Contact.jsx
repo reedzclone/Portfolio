@@ -50,10 +50,10 @@ const Contact = () => {
         <div className="c-socials">
           <h2 className="social-title">Socials</h2>
         <div className="c-social-icons">
-          <a href="#"><img className="social-icon" src={Facebook} alt="" /></a>
-          <a href="http://www.linkedin.com/in/oloye" target="_blank"  rel="noreferrer"><img className="social-icon" src={LinkedIn} alt="" /></a>
-          <a href="#"><img className="social-icon" src={Twitter} alt="" /></a>
-          <a href="#"><img className="social-icon" src={Instagram} alt="" /></a>
+          <a href="https://www.facebook.com/oloye.ishola.7" target="_blank" rel="noreferrer"><img className="social-icon" src={Facebook} alt="" /></a>
+          <a href="https://www.linkedin.com/in/oloye" target="_blank"  rel="noreferrer"><img className="social-icon" src={LinkedIn} alt="" /></a>
+          <a href="https://www.twitter.com/@reedz_oloye" target="_blank" rel="noreferrer"><img className="social-icon" src={Twitter} alt="" /></a>
+          <a href="https://www.instagram.com/wally_oloye" target="_blank" rel="noreferrer"><img className="social-icon" src={Instagram} alt="" /></a>
         </div>
       </div>
       </div>
@@ -64,10 +64,10 @@ const Contact = () => {
           and to achieve a common goal <b>Thank you.</b>
         </p>
         <form ref={formRef} onSubmit={handleSubmit}>
-          <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
-          <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
-          <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
-          <textarea style={{backgroundColor: darkMode && "#333"}} placeholder="Message" name="user_message" id="" cols="30" rows="6"></textarea>
+          <input style={{backgroundColor: darkMode && "#333", color: darkMode && "#fff"}} type="text" placeholder="Name" name="user_name" />
+          <input style={{backgroundColor: darkMode && "#333", color: darkMode && "#fff"}} type="text" placeholder="Subject" name="user_subject" />
+          <input style={{backgroundColor: darkMode && "#333", color: darkMode && "#fff"}} type="text" placeholder="Email" name="user_email" />
+          <textarea style={{backgroundColor: darkMode && "#333", color: darkMode && "#fff"}} placeholder="Message" name="user_message" id="" cols="30" rows="6"></textarea>
           <button type="submit" className="btn">Submit</button>
           
           {done && alert(`Thank you for reaching out`)}
