@@ -43,13 +43,20 @@
 .c-socials-icons {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+i {
+    margin: 2rem;
+    font-size: 2rem;
+    color: black;
 }
 
 .social-icon {
     margin-top: 10px;
     margin-right: 10px;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 8px;
 }
 
 .c-desc {

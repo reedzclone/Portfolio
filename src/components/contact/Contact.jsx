@@ -3,10 +3,6 @@ import "./Contact.css";
 import Email from "../../img/contact.png";
 import Location from "../../img/location.png";
 import Phone from "../../img/phone.png";
-import Instagram from "../../img/instagram.png";
-import Facebook from "../../img/facebook1.png";
-import LinkedIn from "../../img/linkedIn.jpg";
-import Twitter from "../../img/twitter1.png";
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from '../context';
 
@@ -50,10 +46,10 @@ const Contact = () => {
         <div className="c-socials">
           <h2 className="social-title">Socials</h2>
         <div className="c-social-icons">
-          <a href="https://www.facebook.com/oloye.ishola.7" target="_blank" rel="noreferrer"><img className="social-icon" src={Facebook} alt="" /></a>
-          <a href="https://www.linkedin.com/in/oloye" target="_blank"  rel="noreferrer"><img className="social-icon" src={LinkedIn} alt="" /></a>
-          <a href="https://www.twitter.com/@reedz_oloye" target="_blank" rel="noreferrer"><img className="social-icon" src={Twitter} alt="" /></a>
-          <a href="https://www.instagram.com/wally_oloye" target="_blank" rel="noreferrer"><img className="social-icon" src={Instagram} alt="" /></a>
+          <a href="https://www.facebook.com/oloye.ishola.7" target="_blank" rel="noreferrer"><i style={{color: darkMode && "white"}} class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/oloye" target="_blank"  rel="noreferrer"><i style={{color: darkMode && "white"}} class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.twitter.com/@reedz_oloye" target="_blank" rel="noreferrer"><i style={{color: darkMode && "white"}} class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/wally_oloye" target="_blank" rel="noreferrer"><i style={{color: darkMode && "white"}} class="fa-brands fa-instagram"></i></a>
         </div>
       </div>
       </div>
