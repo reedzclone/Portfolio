@@ -14,19 +14,21 @@ const About = () => {
                     <h1>About me</h1>
                 </div>
                 <div className="about-sub">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Nemo provident fugiat aut atque? Quibusdam quaerat magni consectetur
-                        explicabo! Assumenda, expedita!
+                    <p>I'm a <b>SOFTWARE DEVELOPER</b> based in Lagos, Nigeria with over 2 years of experience in the software industry in the area of
+                        frondend using HTML, CSS, JavaScript. experienced in creating logical and innovative solutions to complex problems. I have a strong 
+                        intrest in technology and innovations.
                     </p>
                 </div>
                 <div className="about-desc">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse earum voluptatibus ut odio obcaecati
-                        asperiores fuga officiis, similique natus ad culpa aspernatur,
-                        fugit assumenda quae perspiciatis molestiae consectetur aliquid
-                        quisquam officia omnis nam totam id! Cupiditate, eaque! Veritatis
-                        atque blanditiis delectus dolores ex.
-                        Neque aut incidunt velit amet illum numquam.
-                    </p>
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Problem solving</li>
+                        <li>Team Player</li>
+                        <li>Good Communication Skills</li>
+                        <li>Time Management Skills</li>
+                        <li>Positive Learning Process</li>
+                        
+                    </ul>
                 </div>
 
 

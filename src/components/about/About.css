@@ -19,7 +19,6 @@
     flex: 1;
     display: inline-block;
     line-height: 1.6rem;
-    
 }
 
 .about-title h1{
@@ -34,8 +33,24 @@
 
 .about-desc {
     font-weight: 300;
+    margin-left: 10px;
 }
 
+@media screen and (max-width: 600px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-title h1 {
+        font-size: 28px;
+    }
+
+    .about-desc {
+        display: none;
+    }
+
+}
 
 
 

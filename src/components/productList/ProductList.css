@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -30,7 +31,25 @@
 }
 
 .pl-list {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-between; */
+    justify-content: center;
+    /* justify-content: space-between; */
 }
+
+/* @media screen and (max-width: 600px) {
+
+    .productlist { 
+    padding: 10px;
+    display: flex;
+  }
+
+  .pl-text {
+    width: 100%;
+  }
+
+  .pl-desc {
+    margin: 20px 0px;
+  }
+} */

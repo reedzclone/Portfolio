@@ -10,7 +10,7 @@ const ProductList = () => {
           create and inspire a lovely experience.
         </h1>
         <p className="pl-desc">
-          Lama is a creative portfolio that your work has been waiting for. Beautiful homes, stunning portfolio styles a whole lot more awaits inside.
+          I'm here to give you a lovely web experience, astonishing web design and working experience like never before. Here to satisfy your every needs.
         </p>
       </div>
       <div className="pl-list">

@@ -47,8 +47,8 @@
 }
 
 i {
-    margin: 2rem;
-    font-size: 2rem;
+    margin: 1rem;
+    font-size: 1.8rem;
     color: black;
 }
 
@@ -97,3 +97,46 @@ textarea {
 }
 
 
+@media screen and (max-width: 600px) {
+    .contact{
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+
+    .c-title {
+        font-size: 30px;
+    }
+
+    .c-icon {
+        margin: 10px 10px;
+    }
+
+    .c-socials {
+        margin: 10px 0px;
+    }
+
+    .social-title {
+        font-size: 18px;
+    }
+
+    i {
+        font-size: 1rem;
+    }
+
+    form {
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .c-desc {
+        display: none;
+    }
+
+    .input {
+        width: 35%;
+        height: 40px;  
+    }
+
+
+}
