@@ -1,0 +1,55 @@
+.skill {
+    padding: 50px 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+}
+
+ul {
+    display: block;
+    list-style: none;
+}
+
+li {
+    margin: 20px 0px;
+}
+
+li .num {
+    display: flex;
+    justify-self: flex-start;
+} 
+
+.lan-list {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+li {
+    background-color: antiquewhite;
+    opacity: 1;
+    padding: 10px;
+    border-radius: 10px;
+    color: #59b256;
+}
+
+li:hover {
+    border: 2px solid #59b256;
+    background-color: #59b256;
+    color: blue;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .skill {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

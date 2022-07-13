@@ -19,20 +19,7 @@ const About = () => {
                         intrest in technology and innovations.
                     </p>
                 </div>
-                <div className="about-desc">
-                    <h3>Skills</h3>
-                    <ul>
-                        <li>Problem solving</li>
-                        <li>Team Player</li>
-                        <li>Good Communication Skills</li>
-                        <li>Time Management Skills</li>
-                        <li>Positive Learning Process</li>
-                        
-                    </ul>
-                </div>
-
-
-
+                
             </div>
         </div>
     )
